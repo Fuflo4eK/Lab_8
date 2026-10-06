@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+#include <math.h>
+#define _CRT_SECURE_NO_WARNINGS
+int main(){
+
+  int n, m, s, k;
+  scanf("%d%d", &n, &m);
+  for (int i=m; i>=n ; i-- ){
+    s+=i;
+    printf("выполнено %d раз", k++); 
+  }
+  printf("результат %d", s);
+  return 0;
+}
